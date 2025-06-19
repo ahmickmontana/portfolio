@@ -30,177 +30,183 @@
         Your browser does not support the audio element.
     </audio>
 
-    <header>
-        <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="2500">
-            <h1 class="name-title">Ahmick Montana</h1>
-            <strong class="name-subtitle">
-                Web Developer & Designer
-            </strong>
-            <nav>
-            <a href="#about" class="nav-button">About Me</a>
-            <a href="#skills" class="nav-button">My Skills</a>
-            <a href="#projects" class="nav-button">My Projects</a>
-            <a href="#contact" class="nav-button">Contact Me!</a>
-            </nav>
-        </div>
-    </header>
+    <div id="mainPage" style="display: block;">
+        <header>
+            <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="2500">
+                <h1 class="name-title">Ahmick Montana</h1>
+                <strong class="name-subtitle">
+                    Web Developer & Designer
+                </strong>
+                <nav>
+                <a href="#about" class="nav-button">About Me</a>
+                <a href="#skills" class="nav-button">My Skills</a>
+                <a href="#projects" class="nav-button">My Projects</a>
+                <a href="#contact" class="nav-button">Contact Me!</a>
+                </nav>
+            </div>
+        </header>
 
-    <section id="about" style="text-align: center;">
-        <div class="section-box" data-aos="fade-left" data-aos-duration="1000">
+        <section id="about" style="text-align: center;">
+            <div class="section-box" data-aos="fade-left" data-aos-duration="1000">
 
-            <h2 style="font-family: 'Mogra', cursive; font-size: 40px; color: #0d1b2a;">About Me</h2>
+                <h2 style="font-family: 'Mogra', cursive; font-size: 40px; color: #0d1b2a;">About Me</h2>
 
-            <img src="assets/pictureofme.jpg" alt="Ahmick portrait" style="width: 200px; height: auto; margin-bottom: 15px; border-radius: 10px;">
+                <img src="assets/pictureofme.jpg" alt="Ahmick portrait" style="width: 200px; height: auto; margin-bottom: 15px; border-radius: 10px;">
 
-            <p style="font-family: 'Atma', sans-serif; font-size: 20px; color: #1c1c1c;">
-                Hi, I'm Ahmick. I'm a web developer who is currently studying Computer Science at the University of Canterbury.
-                I am Filipino-born, and I moved to New Zealand in 2014 with my family, and was homeschooled until 2016 when I started studying at Aidanfield Christian
-                School for Years 8 through 10 in 2018. In 2019, I moved to Middleton Grange School for Year 11 through 13, where I developed my interest in programming. 
-            </p>
+                <p style="font-family: 'Atma', sans-serif; font-size: 20px; color: #1c1c1c;">
+                    Hi, I'm Ahmick. I'm a web developer who is currently studying Computer Science at the University of Canterbury.
+                    I am Filipino-born, and I moved to New Zealand in 2014 with my family, and was homeschooled until 2016 when I started studying at Aidanfield Christian
+                    School for Years 8 through 10 in 2018. In 2019, I moved to Middleton Grange School for Year 11 through 13, where I developed my interest in programming. 
+                </p>
 
-            <a href="#expandedAboutMe" id="learnMoreBtn">Learn About My Programming Journey!</a>
+                <a href="#expandedAboutMe" id="learnMoreBtn">Learn About My Programming Journey!</a>
 
-        </div>
+            </div>
 
-        <div id="expandedAboutMe" class="section-box" style="width: 100%; display: none; margin-top: 10px;" data-aos="fade-left" data-aos-duration="1000">
-            <h2 style="font-family: 'Mogra', cursive; font-size: 30px; color: #0d1b2a;">My Programming Timeline</h2>
-            <div class="timeline">
-                <div class="container left">
-                    <div class="year-header" onclick="toggleTimeline(this)">
-                        <h2>2019 - 2021</h2>
+            <div id="expandedAboutMe" class="section-box" style="width: 100%; display: none; margin-top: 10px;" data-aos="fade-left" data-aos-duration="1000">
+                <h2 style="font-family: 'Mogra', cursive; font-size: 30px; color: #0d1b2a;">My Programming Timeline</h2>
+                <div class="timeline">
+                    <div class="container left">
+                        <div class="year-header" onclick="toggleTimeline(this)">
+                            <h2>2019 - 2021</h2>
+                            </div>
+                            <div class="year-content">
+                            <p>My first introduction to programming was during my NCEA Level 1 Digital Technologies (Computer Science) subject in New Zealand. This was when I learned my
+                                first programming language, Python. During NCEA Level 1-3 Digital Technologies (Computer Science), my interest in programming gradually piqued.
+                            </p>
+                            </div>
+                        </div>
+                    <div class="container right">
+                        <div class="year-header" onclick="toggleTimeline(this)">
+                            <h2>2022</h2>
                         </div>
                         <div class="year-content">
-                        <p>My first introduction to programming was during my NCEA Level 1 Digital Technologies (Computer Science) subject in New Zealand. This was when I learned my
-                            first programming language, Python. During NCEA Level 1-3 Digital Technologies (Computer Science), my interest in programming gradually piqued.
-                        </p>
+                            <p>During my first year in University of Canterbury, I initially pursued a degree in Software Engineering, but eventually switched to Computer Science in 2023.</p>
                         </div>
                     </div>
-                <div class="container right">
-                    <div class="year-header" onclick="toggleTimeline(this)">
-                        <h2>2022</h2>
+                    <div class="container left">
+                        <div class="year-header" onclick="toggleTimeline(this)">
+                            <h2>2023</h2>
+                        </div>
+                        <div class="year-content">
+                            <p>During my second year in University of Canterbury, I took SENG201, which focuses on principles, processes, practices, technique and tools of software engineering.
+                                The project involved with this course was to create a sports manager app. In this course I learned how to code in Java, working in a small team as well as using version control.
+                            </p>
+                            <a href="https://courseinfo.canterbury.ac.nz/GetCourseDetails.aspx?course=SENG201&occurrence=23S1(C)&year=2023">Learn more about SENG201 here!</a>
+                        </div>
                     </div>
-                    <div class="year-content">
-                        <p>During my first year in University of Canterbury, I initially pursued a degree in Software Engineering, but eventually switched to Computer Science in 2023.</p>
+                    <div class="container right">
+                        <div class="year-header" onclick="toggleTimeline(this)">
+                            <h2>2024</h2>
+                        </div>
+                        <div class="year-content">
+                            <p>During my third year at the University of Canterbury, I took SENG302, a full-year group project course where I learned how to design, build, and deliver a real-world web application. 
+                                I used Java for backend development, while working with JavaScript, HTML, CSS, and SQL for the frontend and data management. The course taught me how to handle evolving requirements, 
+                                collaborate effectively in a team, manage a codebase over time, and apply software engineering principles in a professional, client-driven environment. I also gained experience with 
+                                Git, production deployment, DevOps, APIs, code testing, pipelines, and working within a Scrum framework.</p>
+                            <a href="https://courseinfo.canterbury.ac.nz/GetCourseDetails.aspx?course=SENG302&occurrence=24W(C)&year=2024">Learn more about SENG302 here!</a>
+                        </div>
+                    </div>
+                    <div class="container left">
+                        <div class="year-header" onclick="toggleTimeline(this)">
+                            <h2>2025</h2>
+                        </div>
+                        <div class="year-content">
+                            <p>During my fourth year at the University of Canterbury, I took INFO263, a course focusing on web design and development, where I deepened my understanding of building dynamic websites by using 
+                                PHP for backend development alongside HTML, CSS, and JavaScript for the frontend. The course emphasized creating responsive, interactive user interfaces and integrating 
+                                databases with SQL to manage and retrieve data efficiently, which helped me enhance both my full-stack development skills and the overall user experience of my web projects.</p>
+                            <a href="https://courseinfo.canterbury.ac.nz/GetCourseDetails.aspx?course=INFO263&occurrence=25S1(C)&year=2025">Learn more about INFO263 here!</a>
+                        </div>
                     </div>
                 </div>
-                <div class="container left">
-                    <div class="year-header" onclick="toggleTimeline(this)">
-                        <h2>2023</h2>
-                    </div>
-                    <div class="year-content">
-                        <p>During my second year in University of Canterbury, I took SENG201, which focuses on principles, processes, practices, technique and tools of software engineering.
-                            The project involved with this course was to create a sports manager app. In this course I learned how to code in Java, working in a small team as well as using version control.
-                        </p>
-                        <a href="https://courseinfo.canterbury.ac.nz/GetCourseDetails.aspx?course=SENG201&occurrence=23S1(C)&year=2023">Learn more about SENG201 here!</a>
-                    </div>
-                </div>
-                <div class="container right">
-                    <div class="year-header" onclick="toggleTimeline(this)">
-                        <h2>2024</h2>
-                    </div>
-                    <div class="year-content">
-                        <p>During my third year at the University of Canterbury, I took SENG302, a full-year group project course where I learned how to design, build, and deliver a real-world web application. 
-                            I used Java for backend development, while working with JavaScript, HTML, CSS, and SQL for the frontend and data management. The course taught me how to handle evolving requirements, 
-                            collaborate effectively in a team, manage a codebase over time, and apply software engineering principles in a professional, client-driven environment. I also gained experience with 
-                            Git, production deployment, DevOps, APIs, code testing, pipelines, and working within a Scrum framework.</p>
-                        <a href="https://courseinfo.canterbury.ac.nz/GetCourseDetails.aspx?course=SENG302&occurrence=24W(C)&year=2024">Learn more about SENG302 here!</a>
-                    </div>
-                </div>
-                <div class="container left">
-                    <div class="year-header" onclick="toggleTimeline(this)">
-                        <h2>2025</h2>
-                    </div>
-                    <div class="year-content">
-                        <p>During my fourth year at the University of Canterbury, I took INFO263, a course focusing on web design and development, where I deepened my understanding of building dynamic websites by using 
-                            PHP for backend development alongside HTML, CSS, and JavaScript for the frontend. The course emphasized creating responsive, interactive user interfaces and integrating 
-                            databases with SQL to manage and retrieve data efficiently, which helped me enhance both my full-stack development skills and the overall user experience of my web projects.</p>
-                        <a href="https://courseinfo.canterbury.ac.nz/GetCourseDetails.aspx?course=INFO263&occurrence=25S1(C)&year=2025">Learn more about INFO263 here!</a>
-                    </div>
+
+            </div>
+        </section>
+
+        <section id="skills" style="padding: 4rem 2rem; text-align: center;">
+            <div class="section-box" data-aos="fade-right" data-aos-duration="1000">
+
+                <h2 style="font-family: 'Mogra', cursive; font-size: 40px; color: #0d1b2a;">Programming Skills</h2>
+
+                <p style="font-family: 'Atma', sans-serif; font-size: 20px; font-weight: bold; color: #1c1c1c;">
+                    Here are my skills that I can bring onto the table!
+                </p>
+
+                <div style="font-size: 100px; display: flex; justify-content: center; gap: 40px; flex-wrap: wrap; margin-top: 2rem; color: #0d1b2a;">
+                    <i class="devicon-python-plain colored" title="Python"></i>
+                    <i class="devicon-java-plain colored" title="Java"></i>
+                    <i class="devicon-php-plain colored" title="PHP"></i>
+                    <i class="devicon-javascript-plain colored" title="JavaScript"></i>
+                    <i class="devicon-html5-plain colored" title="HTML5"></i>
+                    <i class="devicon-css3-plain colored" title="CSS3"></i>
+                    <i class="devicon-c-plain colored" title="C"></i>
+                    <i class="devicon-cplusplus-plain colored" title="C++"></i>
+                    <i class="devicon-kotlin-plain colored" title="Kotlin"></i>
+                    <i class="devicon-git-plain colored" title="Git"></i>
+                    <i class="devicon-gradle-original colored" title="Gradle"></i>
+                    <i class="devicon-linux-plain colored" title="Linux"></i>
+                    <i class="devicon-sqlite-plain colored" title="SQLite"></i>
+                    <i class="devicon-opengl-plain colored" title="OpenGL"></i>
+                    <i class="devicon-sonarqube-original colored" title="SonarQube"></i>
                 </div>
             </div>
+        </section>
 
-        </div>
-    </section>
 
-    <section id="skills" style="padding: 4rem 2rem; text-align: center;">
-        <div class="section-box" data-aos="fade-right" data-aos-duration="1000">
+        <section id="projects" style="padding: 4rem 2rem; text-align: center;">
+            <div class="section-box" data-aos="fade-left" data-aos-duration="1000">
 
-            <h2 style="font-family: 'Mogra', cursive; font-size: 40px; color: #0d1b2a;">Programming Skills</h2>
+            <h2 style="font-family: 'Mogra', cursive; font-size: 40px; color: #0d1b2a;">Projects</h2>
 
             <p style="font-family: 'Atma', sans-serif; font-size: 20px; font-weight: bold; color: #1c1c1c;">
-                Here are my skills that I can bring onto the table!
+                Here are my projects that I have worked on, working on, and planning to work on!
             </p>
 
-            <div style="font-size: 100px; display: flex; justify-content: center; gap: 40px; flex-wrap: wrap; margin-top: 2rem; color: #0d1b2a;">
-                <i class="devicon-python-plain colored" title="Python"></i>
-                <i class="devicon-java-plain colored" title="Java"></i>
-                <i class="devicon-php-plain colored" title="PHP"></i>
-                <i class="devicon-javascript-plain colored" title="JavaScript"></i>
-                <i class="devicon-html5-plain colored" title="HTML5"></i>
-                <i class="devicon-css3-plain colored" title="CSS3"></i>
-                <i class="devicon-c-plain colored" title="C"></i>
-                <i class="devicon-cplusplus-plain colored" title="C++"></i>
-                <i class="devicon-kotlin-plain colored" title="Kotlin"></i>
-                <i class="devicon-git-plain colored" title="Git"></i>
-                <i class="devicon-gradle-original colored" title="Gradle"></i>
-                <i class="devicon-linux-plain colored" title="Linux"></i>
-                <i class="devicon-sqlite-plain colored" title="SQLite"></i>
-                <i class="devicon-opengl-plain colored" title="OpenGL"></i>
-                <i class="devicon-sonarqube-original colored" title="SonarQube"></i>
+            <p class="mb-3" style="font-family: 'Atma', sans-serif; font-size: 20px; color: #1c1c1c;">
+                No self projects planned on yet!
+            </p>
             </div>
-        </div>
-    </section>
+        </section>
 
+        <section id="contact" style="padding: 4rem 2rem; text-align: center;">
+            <div class="section-box" data-aos="fade-right" data-aos-duration="1000">
 
-    <section id="projects" style="padding: 4rem 2rem; text-align: center;">
-        <div class="section-box" data-aos="fade-left" data-aos-duration="1000">
+                <h2 style="font-family: 'Mogra', cursive; font-size: 40px; color: #0d1b2a;">Contact Me</h2>
 
-        <h2 style="font-family: 'Mogra', cursive; font-size: 40px; color: #0d1b2a;">Projects</h2>
+                <p style="font-family: 'Atma', sans-serif; font-size: 20px; color: #1c1c1c;">
+                    Here are my socials where you can reach me and/or view my content!
+                </p>
 
-        <p style="font-family: 'Atma', sans-serif; font-size: 20px; font-weight: bold; color: #1c1c1c;">
-            Here are my projects that I have worked on, working on, and planning to work on!
-        </p>
+                <div style="margin-top: 1.5rem;">
+                    <a href="https://www.instagram.com/ahmickmontana" class="social-icon">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/ahmick-montana/" class="social-icon">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/ahmickmontana/" class="social-icon">
+                        <i class="bi bi-github"></i>
+                    </a>
 
-        <p class="mb-3" style="font-family: 'Atma', sans-serif; font-size: 20px; color: #1c1c1c;">
-            No self projects planned on yet!
-        </p>
-        </div>
-    </section>
+                    <a href="https://x.com/ahmickmontana" class="social-icon">
+                        <i class="bi bi-twitter"></i>
+                    </a>
 
-    <section id="contact" style="padding: 4rem 2rem; text-align: center;">
-        <div class="section-box" data-aos="fade-right" data-aos-duration="1000">
+                    <a href="https://discordapp.com/users/336686686459396100" class="social-icon">
+                        <i class="bi bi-discord"></i>
+                    </a>
+                </div>
 
-            <h2 style="font-family: 'Mogra', cursive; font-size: 40px; color: #0d1b2a;">Contact Me</h2>
-
-            <p style="font-family: 'Atma', sans-serif; font-size: 20px; color: #1c1c1c;">
-                Here are my socials where you can reach me and/or view my content!
-            </p>
-
-            <div style="margin-top: 1.5rem;">
-                <a href="https://www.instagram.com/ahmickmontana" class="social-icon">
-                    <i class="fab fa-instagram"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/ahmick-montana/" class="social-icon">
-                    <i class="fab fa-linkedin"></i>
-                </a>
-                <a href="https://github.com/ahmickmontana/" class="social-icon">
-                    <i class="bi bi-github"></i>
-                </a>
-
-                <a href="https://x.com/ahmickmontana" class="social-icon">
-                    <i class="bi bi-twitter"></i>
-                </a>
-
-                <a href="https://discordapp.com/users/336686686459396100" class="social-icon">
-                    <i class="bi bi-discord"></i>
-                </a>
+                <p style="font-family: 'Atma', sans-serif; font-size: 20px; color: #1c1c1c;">
+                    Alternatively, you can chuck me an email at ahmickmontana@gmail.com for any inquiries!
+                </p>
             </div>
+        </section>
+    </div>
 
-            <p style="font-family: 'Atma', sans-serif; font-size: 20px; color: #1c1c1c;">
-                Alternatively, you can chuck me an email at ahmickmontana@gmail.com for any inquiries!
-            </p>
-        </div>
-    </section>
+    <div id="aboutMePage" style="display: none;">
+        <!-- TODO: Right now, this is nothing. Later on, I will create a separate display for the expanded about me... -->
+    </div>
 
   <footer>
     &copy; 2025 Ahmick Montana
