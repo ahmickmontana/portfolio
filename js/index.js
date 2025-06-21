@@ -73,6 +73,13 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
+  const cards = document.querySelectorAll('.card');
+  cards.forEach(card => {
+    card.addEventListener('click', () => {
+      card.classList.toggle('flipped');
+    });
+  });
+
 });
 
 var playAudio = function(audio) {
@@ -133,11 +140,12 @@ const travelCountries = {
 }
 
 const travelDescText = {
-  1: 'I was born in the Philippines\' capital city of Manila. Here, I spent most of my younger childhood up until 2014, when we, as a family, decided to move to New Zealand.',
+  1: 'I was born in the Philippines\' capital city of Manila. Here, I spent most of my younger childhood up until 2014, when we, as a family, decided to move to New Zealand. Occasionally, \
+      we would return to the Philippines to visit family and reminisce about the place where my family is originally from.',
   2: 'On September 2012, me and my family went on a trip to Kuala Lumpur, Malaysia. Even though it was only a connecting flight to Indonesia. We spent a day there.',
   3: 'On September 2012, me and my family went on a trip to Denpasar in Bali, Indonesia. There, we enjoyed the sceneries of Bali, and the beaches were quite wonderful.',
-  4: 'On July 2014, me and my family went to New Zealand to test the waters. There, we temporarily stayed my aunt\'s place in Hanmer Springs, then moved to Christchurch less than a \
-      month later. Later on, we decided that it was a nice and peaceful place to settle in and decided to live there permanently.',
+  4: 'On July 2014, me and my family went to New Zealand to test the waters. We first settled in Christchurch and ater on, we decided that it was a nice and peaceful place to live in and \
+      decided to stay there permanently.',
   5: 'On April 2018, me and my family went to Hong Kong. There, we visited famous tourist spots such as the Hong Kong Disneyland, the Hong Kong Ocean Park, and more. Even though our\
       accommodation wasn\'t truly the best, we still enjoyed our stay there.',
   6: 'On October and November 2025, me and my mother are planning to go to Japan. We have planned to start in Osaka, then our planned route will be to Kyoto, Nara, Nagoya, Gotemba, then\
@@ -168,3 +176,4 @@ yearScroll.addEventListener('input', (event) => {
 document.addEventListener('DOMContentLoaded', () => {
     map.invalidateSize();
 });
+
