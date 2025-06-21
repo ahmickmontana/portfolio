@@ -328,7 +328,7 @@ audio {
     background: black;
     border-radius: 5px;
     outline: none;
-    /* max-width: 100%; */
+    max-width: 100%;
 }
 
 #yearScroll::-webkit-slider-thumb {
