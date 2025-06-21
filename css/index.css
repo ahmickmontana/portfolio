@@ -65,6 +65,7 @@ header > div {
   font-family: 'Atma', cursive;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  
 }
 
 .button-container > a:hover {
