@@ -144,7 +144,7 @@ const travelDescText = {
       we would return to the Philippines to visit family and reminisce about the place where my family is originally from.',
   2: 'On September 2012, me and my family went on a trip to Kuala Lumpur, Malaysia. Even though it was only a connecting flight to Indonesia. We spent a day there.',
   3: 'On September 2012, me and my family went on a trip to Denpasar in Bali, Indonesia. There, we enjoyed the sceneries of Bali, and the beaches were quite wonderful.',
-  4: 'On July 2014, me and my family went to New Zealand to test the waters. We first settled in Christchurch and ater on, we decided that it was a nice and peaceful place to live in and \
+  4: 'On July 2014, me and my family went to New Zealand to test the waters. We first settled in Christchurch and later on, we decided that it was a nice and peaceful place to live in and \
       decided to stay there permanently.',
   5: 'On April 2018, me and my family went to Hong Kong. There, we visited famous tourist spots such as the Hong Kong Disneyland, the Hong Kong Ocean Park, and more. Even though our\
       accommodation wasn\'t truly the best, we still enjoyed our stay there.',
