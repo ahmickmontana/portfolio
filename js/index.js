@@ -127,7 +127,8 @@ const travelCoords = {
   3: [-8.424048167612177, 115.18822279122902], // Bali, Indonesia
   4: [-41.72926210234935, 173.875723805613],   // New Zealand
   5: [22.3223437839987, 114.177124539492],    // Hong Kong
-  6: [36.61563127055176, 139.29399742258812]     // Japan
+  6: [3.1443303635507758, 101.69076231952275], // Singapore
+  7: [36.61563127055176, 139.29399742258812]     // Japan
 };
 
 const travelCountries = {
@@ -136,20 +137,23 @@ const travelCountries = {
   3: 'Indonesia',
   4: 'New Zealand',
   5: 'Hong Kong',
-  6: 'Japan'
+  6: 'Singapore',
+  7: 'Japan'
 }
 
 const travelDescText = {
   1: 'I was born in the Philippines\' capital city of Manila. Here, I spent most of my younger childhood up until 2014, when we, as a family, decided to move to New Zealand. Occasionally, \
       we would return to the Philippines to visit family and reminisce about the place where my family is originally from.',
-  2: 'On September 2012, me and my family went on a trip to Kuala Lumpur, Malaysia. Even though it was only a connecting flight to Indonesia. We spent a day there.',
-  3: 'On September 2012, me and my family went on a trip to Denpasar in Bali, Indonesia. There, we enjoyed the sceneries of Bali, and the beaches were quite wonderful.',
-  4: 'On July 2014, me and my family went to New Zealand to test the waters. We first settled in Christchurch and later on, we decided that it was a nice and peaceful place to live in and \
+  2: 'On September 2012, my family and I went on a trip to Kuala Lumpur, Malaysia. Even though it was only a connecting flight to Indonesia. We spent a day there.',
+  3: 'On September 2012, my family and I went on a trip to Denpasar in Bali, Indonesia. There, we enjoyed the sceneries of Bali, and the beaches were quite wonderful.',
+  4: 'On July 2014, my family and I went to New Zealand to test the waters. We first settled in Christchurch and later on, we decided that it was a nice and peaceful place to live in and \
       decided to stay there permanently.',
-  5: 'On April 2018, me and my family went to Hong Kong. There, we visited famous tourist spots such as the Hong Kong Disneyland, the Hong Kong Ocean Park, and more. Even though our\
+  5: 'On April 2018, my family and I went to Hong Kong. There, we visited famous tourist spots such as the Hong Kong Disneyland, the Hong Kong Ocean Park, and more. Even though our\
       accommodation wasn\'t truly the best, we still enjoyed our stay there.',
-  6: 'On October and November 2025, me and my mother are planning to go to Japan. We have planned to start in Osaka, then our planned route will be to Kyoto, Nara, Nagoya, Gotemba, then\
-      finally, Tokyo. I\'m looking forward to the wonderful sceneries, the souvenirs, and most especially the food!'
+  6: 'On October 2025, my mother and I spent a day in Singapore as a connecting stop before heading to Japan. We enjoyed the scenery, the warm atmosphere, and even visited parts of the Marina Bay\
+      — I also visited the 2025 Singapore Grand Prix had taken place just two weeks earlier.',
+  7: 'On October and November 2025, my mother and I travelled to Japan. We started in Osaka and made our way through Kyoto and Nara before finishing in Tokyo. We had an amazing time exploring temples,\
+  shrines, and shopping streets — and of course, we enjoyed the incredibly delicious, authentic Japanese food there.'
 }
 
 
