@@ -1,0 +1,49 @@
+{
+  "startIndex": 0,
+  "scenes": [
+    {
+      "speaker": "AHMICK",
+      "text": "Hey, welcome!\nWhat’s your name?",
+      "choices": [
+        { "text": "...", "goto": 1 }
+      ]
+    },
+
+    {
+      "speaker": "AHMICK",
+      "text": "No worries, you don't have to share your name.\nAnyways, welcome to my portfolio!"
+    },
+
+    {
+      "speaker": "AHMICK",
+      "text": "Any questions you have for me?\nI am more than willing to answer them.\nThrow them all at me!",
+      "choices": [
+        { "text": "Can you re-introduce yourself again?", "goto": 3 },
+        { "text": "What skills do you have to offer?", "goto": 1 },
+        { "text": "Do you have any finished projects you are willing to showcase?", "goto": 1 },
+        { "text": "I am interested! How can I contact you further?", "goto": 1 }
+      ]
+    },
+
+    {
+      "speaker": "AHMICK",
+      "text": "Glad you asked! I was going to tell you more about me, anyway."
+    },
+
+    {
+      "speaker": "AHMICK",
+      "text": "Once again, hey! I'm Ahmick, and I'm a junior developer.\nI am a recent Bachelor of Science graduate majoring in Computer Science from the University of Canterbury."
+    },
+
+    {
+      "speaker": "AHMICK",
+      "text": "I am Filipino-born, and moved to New Zealand with my parents back in 2014.\nI was homeschooled from 2014 until 2016 when I started studying at Aidanfield Christian School for Years 8 through 10 in 2018.\nIn 2019, I moved to Middleton Grange School for Year 11 through 13, where I gained my interest in programming.",
+      "choices": [
+        { "text": "What's your programming journey like?", "goto": 4 },
+        { "text": "What's your education journey like?", "goto": 1 },
+        { "text": "Are you much of a traveller?", "goto": 1 },
+        { "text": "Any hobbies worth sharing?", "goto": 1 }
+      ]
+    }
+  ]
+}
