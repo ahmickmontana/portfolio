@@ -1,0 +1,95 @@
+#dialogue-box {
+  position: absolute;
+  left: 50%;
+  bottom: 5%;
+  transform: translateX(-50%);
+
+  width: 90%;
+
+  background: #111;
+  border: 3px solid #444;
+  padding: 14px 16px;
+
+  z-index: 10;
+}
+
+.dialogue-panel {
+  background: #111;
+  border: 3px solid #444;
+  padding: 14px 16px;
+}
+
+.speaker {
+  font-family: 'VT323', monospace;
+  font-size: 34px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 6px;
+  color: #f5f5f5;
+}
+
+.dialogue-text {
+  font-family: 'VT323', monospace;
+  font-size: 26px;
+  line-height: 1.1;
+  white-space: pre-wrap;
+  color: #f5f5f5;
+}
+
+#choice-area {
+  margin-top: 12px;
+  display: grid;
+  gap: 10px;
+}
+
+.choice-panel {
+  background: #111;
+  border: 3px solid #444;
+  padding: 12px 16px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.choice-panel:hover {
+  border-color: #777;
+}
+
+.choice-text {
+  font-family: 'VT323', monospace;
+  font-size: 26px;
+  line-height: 1.1;
+  color: #f5f5f5;
+}
+
+#dialogue-text p {
+  margin: 0 0 8px 0;
+  white-space: pre-wrap;
+}
+
+.cursor::after {
+  content: "▌";
+  margin-left: 2px;
+  animation: blink 0.8s steps(1) infinite;
+}
+
+#choices {
+  margin-top: 12px;
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+#choices button {
+  background: #222;
+  color: #fff;
+  border: 2px solid #555;
+  padding: 6px 12px;
+  font-family: inherit;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#choices button:hover {
+  background: #444;
+}
+

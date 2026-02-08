@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Ahmick Montana</title>
+
+  <!-- Font used for my portfolio (Font is VT323) -->
+  <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+  <!-- All the CSS included for the website -->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/pixel.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/dialogue.css">
+</head>
+<body>
+
+  <!-- Background / Room (credit to Ludo AI which helped generate a background)-->
+  <div id="game-container" class="pixel">
+    <div id="room"></div>
+
+    <!-- Character -->
+    <img
+      id="character"
+      class="pixel"
+      src="assets/sprites/me/sprite_idle.gif"
+      alt="Ahmick"
+    />
+
+    <!-- Dialogue UI -->
+    <div id="dialogue-box">
+        <!-- MAIN dialogue box -->
+         <div id="speaker" class="speaker">AHMICK</div>
+         <div id="dialogue-text" class="dialogue-text"></div>
+
+        <!-- CHOICE box underneath -->
+        <div id="choice-area"></div>
+    </div>
+
+    <!-- Skip link -->
+    <a id="skip-link" href="classic.html">
+      Skip → Classic view
+    </a>
+  </div>
+
+  <!-- JS -->
+  <script src="js/main.js"></script>
+</body>
+</html>
