@@ -25,53 +25,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    document.getElementById('learnMoreBtn').addEventListener('click', function(event) {
-      event.preventDefault();
-
-      const aboutMePages = document.getElementsByClassName('aboutMe');
-      const learnMoreBtn = document.getElementById('learnMoreBtn');
-      const mainPage = document.getElementById('mainPage');
-
-      const isHidden = aboutMePages[0].style.display === 'none' || aboutMePages[0].style.display === '';
-
-      for (let i = 0; i < aboutMePages.length; i++) {
-          aboutMePages[i].style.display = isHidden ? 'block' : 'none';
-      }
-
-      mainPage.style.display = isHidden ? 'none' : 'block';
-      window.scrollTo(0, 0);
-      map.invalidateSize();
-  });
-
-    document.getElementById('return-btn').addEventListener('click', function(event) {
-      event.preventDefault();
-
-      const aboutMePages = document.getElementsByClassName('aboutMe');
-      const mainPage = document.getElementById('mainPage');
-
-      for (let i = 0; i < aboutMePages.length; i++) {
-          aboutMePages[i].style.display = 'none';
-      }
-
-      mainPage.style.display = 'block';
-      window.scrollTo(0, 0);
-  });
-
-
-  document.getElementById('projectsBtn').addEventListener('click', function(event) {
-    event.preventDefault();
-
-    const expandedSection = document.getElementById('expandedProject');
-    const projectsBtn = document.getElementById('projectsBtn');
-
-    if (expandedSection.style.display === 'none' || expandedSection.style.display === '') {
-        expandedSection.style.display = 'block';
-        projectsBtn.textContent = 'Done?';
-    } else {
-        expandedSection.style.display = 'none';
-        projectsBtn.textContent = 'Check My Projects Out!';
-    }
-  });
 
   const cards = document.querySelectorAll('.card');
   cards.forEach(card => {
@@ -99,6 +52,11 @@ function toggleTimeline(header) {
   const content = header.nextElementSibling;
   content.classList.toggle('show');
 }
+
+// Initialize map only if map exists
+const mapElement = document.getElementById('map');
+
+if (mapElement) {
 
 // Initialize map centered roughly on the Philippines to start
 const map = L.map('map', {
@@ -151,9 +109,9 @@ const travelDescText = {
   5: 'On April 2018, my family and I went to Hong Kong. There, we visited famous tourist spots such as the Hong Kong Disneyland, the Hong Kong Ocean Park, and more. Even though our\
       accommodation wasn\'t truly the best, we still enjoyed our stay there.',
   6: 'On October 2025, my mother and I spent a day in Singapore as a connecting stop before heading to Japan. We enjoyed the scenery, the warm atmosphere, and even visited parts of the Marina Bay\
-      — I also visited the 2025 Singapore Grand Prix had taken place just two weeks earlier.',
+      - I also visited the 2025 Singapore Grand Prix had taken place just two weeks earlier.',
   7: 'On October and November 2025, my mother and I travelled to Japan. We started in Osaka and made our way through Kyoto and Nara before finishing in Tokyo. We had an amazing time exploring temples,\
-  shrines, and shopping streets — and of course, we enjoyed the incredibly delicious, authentic Japanese food there.'
+  shrines, and shopping streets - and of course, we enjoyed the incredibly delicious, authentic Japanese food there.'
 }
 
 
@@ -181,3 +139,4 @@ document.addEventListener('DOMContentLoaded', () => {
     map.invalidateSize();
 });
 
+}

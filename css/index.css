@@ -43,7 +43,7 @@ header > div {
   border-radius: 6px;
   text-decoration: none;
   font-weight: bold;
-  font-family: 'Atma', cursive;
+  font-family: 'Inter', cursive;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
@@ -62,7 +62,7 @@ header > div {
   border-radius: 6px;
   text-decoration: none;
   font-weight: bold;
-  font-family: 'Atma', cursive;
+  font-family: 'Inter', cursive;
   cursor: pointer;
   transition: background-color 0.3s ease;
   
@@ -78,7 +78,7 @@ header > div {
   border-radius: 6px;
   text-decoration: none;
   font-weight: bold;
-  font-family: 'Atma', cursive;
+  font-family: 'Inter', cursive;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
@@ -103,7 +103,7 @@ footer {
 }
 
 .name-title {
-    font-family: 'Mogra', cursive;
+    font-family: 'Poppins', cursive;
     font-weight: bold;
     font-size: 75px;
     background: linear-gradient(to bottom, #0d1b2a, #2541b2);
@@ -115,9 +115,20 @@ footer {
 }
 
 .name-subtitle {
-    font-family: 'Atma';
+    font-family: 'Inter';
     font-weight: bold;
     font-size: 45px;
+    background: white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+.tech-stack {
+  font-family: 'Inter';
+    font-weight: bold;
+    font-size: 15px;
     background: white;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -288,7 +299,7 @@ audio {
 
 .container.left,
 .container.right {
-  font-family: 'Atma';
+  font-family: 'Inter';
   font-weight: bold;
 }
 
